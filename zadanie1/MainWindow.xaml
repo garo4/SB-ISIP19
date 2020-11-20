@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="ВЫЧИСЛИТЬ" Click="calculate_Click" Name="calculate" HorizontalAlignment="Left" Margin="141,286,0,0" VerticalAlignment="Top" Width="81" Height="53" Grid.Column="1"/>
+        <Button Content="Очистить" Click="Delete_Click" Name="Delete" HorizontalAlignment="Left" Margin="288,286,0,0" VerticalAlignment="Top" Width="90" Height="53"/>
+        <Button Content="ВЫЧИСЛИТЬ" Click="calculate_Click" Name="calculate" HorizontalAlignment="Left" Margin="141,286,0,0" VerticalAlignment="Top" Width="90" Height="53"/>
         <Label Content="Максимум" HorizontalAlignment="Left" Margin="141,108,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <Label Content="Минимум" HorizontalAlignment="Left" Margin="141,156,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,0.639" Grid.Column="1"/>
         <Label Content="Шаги" HorizontalAlignment="Left" Margin="141,208,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.755,2.604" Grid.Column="1"/>
@@ -15,5 +16,5 @@
         <TextBox Name="Min" HorizontalAlignment="Left" Height="23" Margin="258,156,0,0" Text="" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
         <TextBox Name="s" HorizontalAlignment="Left" Height="23" Margin="258,211,0,0" Text="" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column="1"/>
         <TextBox HorizontalAlignment="Left" Text="" Name="answer" Height="231" Margin="450,108,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="225" Grid.Column="1"/>
-     </Grid>
+    </Grid>
 </Window>
